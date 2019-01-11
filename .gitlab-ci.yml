@@ -7,7 +7,6 @@ services:
 variables:
   DOCKER_DRIVER: overlay2
   IMAGE_NAME: $CI_REGISTRY/$CI_PROJECT_PATH
-  DOCKER_HOST: tcp://localhost:2375
 
 stages:
   - test
