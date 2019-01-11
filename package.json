@@ -1,0 +1,23 @@
+{
+  "name": "koa2-docker",
+  "version": "1.0.0",
+  "description": "koajs application docker demo.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "serve": "node app.js"
+  },
+  "author": "Jintao Zhang<zhangjintao9020@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tao12345666333/koa2-docker.git"
+  },
+  "dependencies": {
+    "koa": "^2.6.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}
